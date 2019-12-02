@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8" />
+<title>Hello Students</title>
+</head>
+<body>
+	<dl>
+		<dt>ID</dt>
+		<dd th:text="${student.id}">student id</dd>
+		<dt>NAME</dt>
+		<dd th:text="${student.name}">student name</dd>
+	</dl>
+</body>
+</html>
